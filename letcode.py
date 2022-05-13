@@ -10,7 +10,7 @@ url = "https://leetcode.com/api/problems/all/"
 headers = {'User-Agent': user_agent, 'Connection': 'keep-alive'}
 
 
-app = Flask(_name_)
+app = Flask(__name__)
 CORS(app)
 
 
