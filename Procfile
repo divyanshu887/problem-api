@@ -1,0 +1,1 @@
+web: gunicorn letcode: app --log-file -
